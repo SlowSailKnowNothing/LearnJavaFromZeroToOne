@@ -45,7 +45,7 @@ public class UserService {
         }
     }
     
-    @TestAnno("userservice#register")
+
     public User register(String name,String password){
         //这个可以后面再想，用户名重复，密码重复怎么解决
         int id=users.get(users.size()-1).getId()+1;
